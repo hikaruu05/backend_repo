@@ -21,10 +21,15 @@ describe('Product Model Test', () => {
       name: 'Test Product',
       price: 10.99,
       description: 'Test product description',
+      stock: 10,  
     });
 
     const savedProduct = await product.save();
+
     expect(savedProduct._id).toBeDefined();
     expect(savedProduct.name).toBe('Test Product');
+    expect(savedProduct.price).toBe(10.99);
+    expect(savedProduct.description).toBe('Test product description');
+    expect(savedProduct.stock).toBe(10);  
   });
 });
