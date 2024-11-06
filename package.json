@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-  "start": "node server.js",
-  "test": "jest"
+    "start": "node server.js",
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +16,7 @@
     "express": "^4.21.1",
     "mongoose": "^8.8.0",
     "react-scripts": "^5.0.1",
+    "resolve": "^1.22.8",
     "swagger-jsdoc": "^6.2.8",
     "swagger-ui-express": "^5.0.1"
   },
